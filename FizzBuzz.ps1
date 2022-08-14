@@ -19,19 +19,9 @@ Example 4:
 Input: n = 2
 Output: "2" #>
 
-
 $n = 2
-
 
 if (($n%3 -eq 0) -AND ($n%5 -eq 0)) {Write-Output "FizzBuzz"}
     Elseif (($n%3) -eq 0) {Write-Output "Fizz"}
         Elseif (($n%5) -eq 0) {Write-Output "Buzz"}
             Elseif (($n%3 -ne 0) -OR ($n%5 -ne 0)) {Write-Output $n}
-              
-        
-
-
-
-
-
-
